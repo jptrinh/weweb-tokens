@@ -7,6 +7,7 @@ try {
   const inputData = JSON.parse(fs.readFileSync(inputFilePath, 'utf8'));
   
   // Your transformation logic here
+  console.log(inputData);
   
   const transformedData = inputData; // Replace with your transformation logic
 
