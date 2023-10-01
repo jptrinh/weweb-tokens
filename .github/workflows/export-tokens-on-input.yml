@@ -15,7 +15,7 @@ jobs:
         run: npm install
       - name: Transform JSON
         run: |
-          node workflows/transform-script.js  # Replace with the name of your transformation script
+          node .github/workflows/transform-script.js  # Replace with the name of your transformation script
         env:
           INPUT_JSON_FILE: tokens.json  # Replace with your input JSON file name
           OUTPUT_JSON_FILE: weweb-tokens.json  # Replace with your output JSON file name
